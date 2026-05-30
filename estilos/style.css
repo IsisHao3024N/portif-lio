@@ -25,6 +25,11 @@ a {
     color: #6F5848;
 
 }
+a:hover{
+ transform: scale(0.75);
+ border-bottom: 3px solid #DECDBA;
+
+}
 
 .home {
     display: flex;
@@ -52,9 +57,28 @@ p {
     font-size: 36px;
     padding-top: 95px;
 }
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 
 .image-home {
     padding-top: 80px;
+    animation: float 4s ease-in-out infinite;
+}
+
+.image-home:hover{
+    transform: scale(1.03);
 }
 
 .sobre {
