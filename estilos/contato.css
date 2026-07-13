@@ -15,13 +15,13 @@
 }
 
 
-.box-cont{
+.box-cont {
     display: flex;
     justify-content: center;
     gap: 51px;
 }
 
-.cont-conteiner{
+.cont-conteiner {
     width: 400px;
     height: 514px;
     background: #fff6ee;
@@ -35,9 +35,11 @@
     transition: .35s;
     animation: float 4s ease-in-out infinite;
 }
-.cont-conteudo>img{
+
+.cont-conteudo>img {
     margin: 39px 140px 10px;
 }
+
 .cont-conteudo>h3 {
     font-size: 32px;
     font-weight: 500;
@@ -54,7 +56,7 @@
     margin-bottom: 5px;
 }
 
-#e-mail{
+#e-mail {
     font-size: 18px;
     color: black;
     padding: 14px 12px 9px 12px;
@@ -63,13 +65,13 @@
     border-radius: 10px;
 }
 
-.botao{
+.botao {
     display: flex;
     justify-content: center;
     margin-top: 61px;
 }
 
-.botao>button{
+.botao>button {
     width: 268px;
     height: 59px;
     color: white;
@@ -80,17 +82,19 @@
     border: 4px solid #C28E70;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
-.cont-whats{
+
+.cont-whats {
     background: #D6F4CA;
     border: 3px solid #898E80;
+    border-radius: 10px;
 }
 
-.cont-conteudo>h3{
+.cont-conteudo>h3 {
     color: #2D4336;
     font-weight: bold;
 }
 
-.chamada{
+.chamada {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,18 +109,18 @@
 
 }
 
-.chamada>img{
+.chamada>img {
     margin-top: 10px;
     width: 45px;
     height: 45px;
 }
 
-.chamada>p{
+.chamada>p {
     margin-bottom: 80px;
-    font-size: 24px ;
+    font-size: 24px;
 }
 
-.btn-whats>button{
+.btn-whats>button {
     color: white;
     font-size: 24px;
     font-family: "Poppins", sans-serif;
@@ -125,6 +129,27 @@
     height: 76px;
     background: #4C905F;
     border: 4px solid #76B788;
-    margin: 20px 30px 0 30px;
+    margin: 20px 30px 0 43px;
     padding: 0;
+}
+
+.botao-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.but>button {
+    display: flex;
+    justify-content: space-between;
+    width: 256px;
+    height: 59px;
+    margin: 10px auto;
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button>img {
+    width: 44px;
+    height: 44px;
 }
