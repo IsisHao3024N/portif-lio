@@ -87,6 +87,7 @@
     background: #D6F4CA;
     border: 3px solid #898E80;
     border-radius: 10px;
+     animation: float 4s ease-in-out infinite;
 }
 
 .cont-conteudo>h3 {
@@ -106,6 +107,7 @@
     padding: 0;
     border: 1px solid #76B788;
     border-radius: 10px;
+   
 
 }
 
