@@ -78,10 +78,10 @@ button {
 button:hover {
     text-decoration: underline;
     box-shadow: none;
-     padding: 12px 23px;
-     transition: 0.3s;
+    padding: 12px 23px;
+    transition: 0.3s;
 
-  
+
 }
 
 .todos {
@@ -99,4 +99,3 @@ button:hover {
     animation: float 4s ease-in-out infinite;
     cursor: pointer;
 }
-
