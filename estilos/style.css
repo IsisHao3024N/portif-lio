@@ -17,7 +17,7 @@ body {
 nav {
     display: flex;
     justify-content: center;
-    gap: 63px;
+    gap: 43px;
     border-bottom: 4px solid #E4BFA5;
     padding-bottom: 32px;
 }
@@ -50,7 +50,7 @@ a:hover{
 
 h1 {
     color: #503026;
-    font-size: 64px;
+    font-size: 54px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -60,7 +60,7 @@ h1>span {
 
 p {
     color: #6F5848;
-    font-size: 36px;
+    font-size: 26px;
     font-family: "Poppins", sans-serif;
     padding-top: 95px;
 }
