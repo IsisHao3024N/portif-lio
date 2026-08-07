@@ -83,3 +83,65 @@ button:hover {
 
 
 }
+
+@media (max-width: 760px) {
+
+    .work > h2 {
+        padding: 20px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .work > p {
+        margin-left: 0;
+        padding: 10px 20px 30px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .box-conteiner {
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+    }
+
+    .box-conteiner img {
+        height: auto;
+        display: block;
+    }
+
+    .content > h3 {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .content > p {
+        font-size: 15px;
+        padding: 0 20px;
+        line-height: 1.6;
+    }
+
+    .tecnologias{
+        display: flex;
+    }
+
+
+
+    .botoes {
+        gap: 20px;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

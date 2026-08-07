@@ -5,86 +5,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 
 
-.habilidades{
-    width:100%;
-    padding:10px 50px;
+.habilidades {
+  width: 100%;
+  padding: 10px 50px;
 }
 
 
 .habilidades>h2 {
-    padding: 20px 0 20px 140px;
-    font-size: 48px;
-    font-family: "Poppins", sans-serif;
-    color: #6F5848;
+  padding: 20px 0 20px 140px;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  color: #6F5848;
 
 }
 
 .subtitulo {
-    padding: 0 0 0 140px;
+  padding: 0 0 0 140px;
 }
 
 .subtitulo,
 h3 {
 
-    color: #6F5848;
-    font-size: 32px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-    margin-bottom: 40px;
+  color: #6F5848;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 40px;
 }
 
 .habilidade-conteudo {
-    padding: 0 0 0 140px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+  padding: 0 0 0 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
 }
 
 a {
-    text-decoration: none;
-    padding-top: 41px;
-    font-size: 28px;
-    font-family: "Poppins", sans-serif;
-    color: #6F5848;
+  text-decoration: none;
+  padding-top: 41px;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #6F5848;
 
 }
 
 
 .skill {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 22px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 22px 0;
 }
 
 .linha,
 hr {
 
-    border: none;
-    border-top: 1px solid black;
-    margin-bottom: 10px;
+  border: none;
+  border-top: 1px solid black;
+  margin-bottom: 10px;
 }
 
 .linha {
-    margin: 35px 0 10px 140px;
+  margin: 35px 0 10px 140px;
 }
 
-@media (max-width: 760px){
+@media (max-width: 760px) {
+
+
+
   .habilidade-conteudo {
-    grid-template-columns: 1fr; /* em vez de flex-direction */
-    padding: 0; /* remove o padding lateral para caber melhor */
+    grid-template-columns: 1fr;
+    /* em vez de flex-direction */
+    padding: 0;
+    /* remove o padding lateral para caber melhor */
   }
 
-  .esquerda, .direita {
+  .esquerda,
+  .direita {
     width: 100%;
+  }
+
+  .esquerda>h3,
+  .direita>h3 {
+    font-size: 1.5rem;
   }
 
   .skill {
@@ -98,8 +109,8 @@ hr {
     height: auto;
   }
 
-  .habilidades > h2 {
-    font-size: 1.5rem;
+  .habilidades>h2 {
+    font-size: 2rem;
     text-align: center;
     padding: 20px 0;
   }
@@ -110,4 +121,3 @@ hr {
     padding: 0;
   }
 }
-
