@@ -108,7 +108,9 @@ hr {
     width: 20px;
     height: auto;
   }
-
+.skill a{
+  font-size: 1rem;
+}
   .habilidades>h2 {
     font-size: 2rem;
     text-align: center;
