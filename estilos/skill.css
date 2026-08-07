@@ -76,3 +76,40 @@ hr {
 .linha {
     margin: 35px 0 10px 140px;
 }
+
+@media (max-width: 760px){
+    @media (max-width: 760px){
+  .habilidade-conteudo {
+    grid-template-columns: 1fr; /* em vez de flex-direction */
+    padding: 0; /* remove o padding lateral para caber melhor */
+  }
+
+  .esquerda, .direita {
+    width: 100%;
+  }
+
+  .skill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .skill img {
+    width: 40px;
+    height: auto;
+  }
+
+  .habilidades > h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .subtitulo {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0;
+  }
+}
+
+}
