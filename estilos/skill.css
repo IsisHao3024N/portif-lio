@@ -11,11 +11,10 @@
 }
 
 
-.habilidades {
-    width: 100%;
-    min-height: 100vh; /* ocupa a tela inteira, mas cresce se precisar */
-    margin: auto;
-    padding: 50px;
+
+.habilidades{
+    width:100%;
+    padding:10px 50px;
 }
 
 
