@@ -83,19 +83,3 @@ button:hover {
 
 
 }
-
-.todos {
-    display: flex;
-    justify-content: center;
-    margin-top: 75px;
-}
-
-.todos>button {
-    width: 495px;
-    height: 82px;
-    font-size: 32px;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
-    animation: float 4s ease-in-out infinite;
-    cursor: pointer;
-}
