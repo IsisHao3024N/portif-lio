@@ -84,28 +84,33 @@
 
 @media (max-width:767px){
     .text-sobre{
-        width: 90%;
-        height: 725px;
+        width: 95%;        /* ocupa quase toda a largura */
+        height: auto;      /* cresce conforme o conteúdo */
+        padding: 20px;     /* espaçamento mais leve */
     }
 
     .text-sobre>h2 {
-    font-size: 38px;
+        font-size: 2rem;   /* título proporcional */
+        padding: 10px 0;
     }
 
     .text-sobre>p {
-        font-size: 20px;
+        font-size: 1rem;   /* texto confortável para leitura */
         font-weight: 300;
-         padding-top: 10px;
+        padding-top: 10px;
+        margin-left: 0;    /* evita deslocar texto */
     }
 
     .text-sobre>hr{
-        margin: 48px 98px 48px 98px;
+        margin: 24px auto; /* centraliza */
+        width: 80%;        /* não ultrapassa a tela */
     }
+
     .text-sobre>h3{
-        font-size: 23px;
+        font-size: 1.3rem;
     }
 
     .text-sobre>.frase{
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
