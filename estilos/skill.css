@@ -77,6 +77,69 @@ hr {
   margin: 35px 0 10px 140px;
 }
 
+
+@media (min-width: 766px) and (max-width: 1024px) {
+
+    .habilidades {
+        padding: 70px 60px;
+    }
+
+    .habilidade-conteudo {
+        width: 100%;
+        max-width: 850px;
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 80px;
+        align-items: start;
+    }
+
+    .esquerda,
+    .direita {
+        width: 100%;
+    }
+
+    .habilidade-conteudo h3 {
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .skill {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .skill > img {
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+        flex-shrink: 0;
+    }
+
+    .skill a {
+        font-size: 16px;
+    }
+
+    .nivel {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        margin-left: auto;
+    }
+
+    .nivel img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .habilidade-conteudo hr {
+        margin: 35px 0;
+    }
+}
+
 @media (max-width: 760px) {
 
 

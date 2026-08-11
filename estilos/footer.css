@@ -223,6 +223,220 @@ footer {
     color: #7C330C;
 }
 
+@media (min-width: 766px) and (max-width: 1024px) {
+
+    /* =================================
+       FOOTER
+    ================================= */
+
+    footer {
+        padding: 60px 60px 0;
+    }
+
+    .footer-container {
+        width: 100%;
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+
+    /* =================================
+       CONTATO
+    ================================= */
+
+    .footer-contato {
+        width: 100%;
+    }
+
+    .perfil {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .perfil > img {
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
+    }
+
+    .apresentacao h2 {
+        font-size: 22px;
+        margin-bottom: 4px;
+    }
+
+    .apresentacao p {
+        font-size: 14px;
+    }
+
+    .footer-contato .descricao {
+        max-width: 600px;
+
+        margin: 20px 0;
+
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .footer-contato h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+
+    /* =================================
+       INFORMAÇÕES DE CONTATO
+    ================================= */
+
+    .contato {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        margin-bottom: 10px;
+    }
+
+    .contato img {
+        width: 20px;
+        height: 20px;
+
+        object-fit: contain;
+    }
+
+    .contato span {
+        font-size: 14px;
+    }
+
+
+    /* =================================
+       BOTÃO WHATSAPP
+    ================================= */
+
+    .but-whats {
+        width: fit-content;
+
+        margin-top: 20px;
+
+        padding: 11px 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 8px;
+
+        font-size: 14px;
+    }
+
+    .but-whats img {
+        width: 19px;
+        height: 19px;
+    }
+
+
+    /* =================================
+       LINHAS
+    ================================= */
+
+    .linha {
+        width: 1;
+        height: 1px;
+
+        margin: 35px 0;
+    }
+
+
+    /* =================================
+       NAVEGAÇÃO + REDES SOCIAIS
+    ================================= */
+
+    .footer-nav,
+    .footer-social {
+        width: 100%;
+    }
+
+    .footer-nav h2,
+    .footer-social h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+
+    /* Navegação */
+
+    .footer-nav ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 10px 30px;
+
+        padding: 0;
+        margin: 0;
+
+        list-style: none;
+    }
+
+    .footer-nav li a {
+        font-size: 14px;
+    }
+
+
+    /* Redes sociais */
+
+    .redes {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        margin-bottom: 15px;
+    }
+
+    .redes a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .redes img {
+        width: 28px;
+        height: 28px;
+
+        object-fit: contain;
+    }
+
+    .footer-social > p {
+        max-width: 350px;
+
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .footer-social > p img {
+        width: 15px;
+        height: 15px;
+
+        vertical-align: middle;
+    }
+
+
+    /* =================================
+       COPYRIGHT
+    ================================= */
+
+    .footer-copy {
+        margin-top: 45px;
+
+        padding: 20px 0;
+    }
+
+    .footer-copy p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+}
+
+
 @media (max-width: 760px) {
 
     footer {

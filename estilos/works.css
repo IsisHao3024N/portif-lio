@@ -84,6 +84,114 @@ button:hover {
 
 }
 
+@media (min-width: 766px) and (max-width: 1024px) {
+
+    /* PROJETOS */
+    .work {
+        padding: 80px 60px;
+    }
+
+    .work h2 {
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+
+    .work .descricao {
+        max-width: 650px;
+        margin: 0 auto 50px;
+        font-size: 17px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+   
+    .box {
+        width: 100%;
+        max-width: 850px;
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+  
+    .box-conteiner {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+        min-height: 470px;
+
+        padding: 25px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content > img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+
+        object-fit: contain;
+
+        margin-bottom: 20px;
+    }
+
+ 
+    .content h3 {
+        font-size: 21px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+   
+    .content > p {
+        font-size: 15px;
+        line-height: 1.6;
+        text-align: center;
+
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .tecnologias {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        margin-bottom: 25px;
+    }
+
+    .tecnologias img {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        margin-top: auto;
+    }
+
+    .botoes button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    .box-conteiner:last-child {
+        grid-column: 1 / 2;
+    }
+}
+
+
 @media (max-width: 760px) {
 
     .work > h2 {
