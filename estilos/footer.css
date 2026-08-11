@@ -510,8 +510,13 @@ footer {
    }
 
     .footer-social p {
-        font-size: 16px;
+        font-size: 13px;
         line-height: 1.7;
+    }
+
+    .footer-social >p > img{
+       width: 20px;
+       height: 20px;
     }
 
     .footer-copy {
