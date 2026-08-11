@@ -146,9 +146,9 @@ hr {
 
   .habilidade-conteudo {
     grid-template-columns: 1fr;
-    /* em vez de flex-direction */
+   
     padding: 0;
-    /* remove o padding lateral para caber melhor */
+    
   }
 
   .esquerda,
