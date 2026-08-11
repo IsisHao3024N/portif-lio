@@ -182,7 +182,7 @@ body {
 }
 
 .chamada > p {
-    margin-bottom: 80px;
+    margin: auto 0;
     font-size: 24px;
 }
 
@@ -370,7 +370,7 @@ button > img {
     }
 
     .chamada > p {
-        margin-top: 90px;
+        margin: auto 0;
         font-size: 14px;
     }
 
@@ -449,10 +449,7 @@ button > img {
 }
 
 
-/* =========================================================
-   MOBILE
-   ATÉ 760px
-   ========================================================= */
+
 
 @media (max-width: 760px) {
 
@@ -474,7 +471,7 @@ button > img {
     }
 
 
-    /* Cards */
+
 
     .box-cont {
         display: flex;
@@ -494,7 +491,6 @@ button > img {
     }
 
 
-    /* Conteúdo */
 
     .cont-conteudo > img {
         display: block;
@@ -519,7 +515,7 @@ button > img {
     }
 
 
-    /* E-mail */
+
 
     #e-mail {
         width: calc(100% - 40px);
