@@ -1,19 +1,43 @@
-.contatos>h2 {
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ==============================
+   RESET / CONFIGURAÇÕES GERAIS
+   ============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* ==============================
+   SEÇÃO CONTATOS
+   ============================== */
+
+.contatos > h2 {
     padding: 20px 0 20px 140px;
     font-size: 48px;
-    font-family: "Poppins", sans-serif;
     color: #6F5848;
-
 }
 
-.contatos>p {
-    color: #6F5848;
-    font-size: 24px;
-    font-family: "Poppins", sans-serif;
+.contatos > p {
     margin-left: 150px;
-    padding: 30px 0 30px 0;
+    padding: 30px 0;
+    font-size: 24px;
+    color: #6F5848;
 }
 
+
+/* ==============================
+   CONTAINER DOS CARDS
+   ============================== */
 
 .box-cont {
     display: flex;
@@ -21,166 +45,239 @@
     gap: 51px;
 }
 
+
+/* ==============================
+   CARD PRINCIPAL
+   ============================== */
+
 .cont-conteiner {
     width: 400px;
     height: 514px;
-    background: #fff6ee;
+    background: #FFF6EE;
+    border: 1px solid #B77D56;
     border-radius: 18px;
     overflow: hidden;
 
-    border: 1px solid #b77d56;
-
     box-shadow: -4px 10px 20px 2px rgba(124, 51, 12, 0.25);
 
-    transition: .35s;
+    transition: 0.35s;
     animation: float 4s ease-in-out infinite;
 }
 
-.cont-conteudo>img {
-    margin: 39px 140px 10px;
+
+/* ==============================
+   CONTEÚDO DOS CARDS
+   ============================== */
+
+.cont-conteudo {
+    width: 100%;
 }
 
-.cont-conteudo>h3 {
-    font-size: 32px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 0;
-    padding: 0 33px 0 33px;
+.cont-conteudo > img {
+    display: block;
+    margin: 39px auto 10px;
+}
+
+.cont-conteudo > h3 {
+    padding: 0 33px;
     margin-bottom: 10px;
+
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+
+    color: #2D4336;
 }
 
-.cont-conteudo>p {
-    text-align: center;
-    font-size: 24px;
-    padding: 0 33px 0 33px;
+.cont-conteudo > p {
+    padding: 0 33px;
     margin-bottom: 5px;
+
+    font-size: 24px;
+    text-align: center;
 }
+
+
+/* ==============================
+   E-MAIL
+   ============================== */
 
 #e-mail {
+    margin: 26px;
+    padding: 14px 12px 9px;
+
     font-size: 18px;
     color: black;
-    padding: 14px 12px 9px 12px;
-    margin: 26px;
+
     border: 1px solid #7C330C;
     border-radius: 10px;
 }
 
+
+/* ==============================
+   BOTÃO PRINCIPAL
+   ============================== */
+
 .botao {
     display: flex;
     justify-content: center;
-    margin-top: 61px;
+    margin-top: 0;
 }
 
-.botao>button {
+.botao > button {
     width: 268px;
     height: 59px;
+
     color: white;
     font-size: 24px;
     font-weight: bold;
+
     font-family: "Poppins", sans-serif;
+
     background: #996C4F;
     border: 4px solid #C28E70;
+
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
+
+/* ==============================
+   CARD WHATSAPP
+   ============================== */
 
 .cont-whats {
     background: #D6F4CA;
     border: 3px solid #898E80;
     border-radius: 10px;
+
     animation: float 4s ease-in-out infinite;
 }
 
-.cont-conteudo>h3 {
-    color: #2D4336;
-    font-weight: bold;
-}
+
+/* ==============================
+   CHAMADA WHATSAPP
+   ============================== */
 
 .chamada {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: #EAEFE1;
+
     width: 324px;
     height: 76px;
+
     margin: auto;
     padding: 0;
+
+    background: #EAEFE1;
     border: 1px solid #76B788;
     border-radius: 10px;
-
-
 }
 
-.chamada>img {
-    margin-top: 10px;
+.chamada > img {
     width: 45px;
     height: 45px;
+    margin-top: 10px;
 }
 
-.chamada>p {
+.chamada > p {
     margin-bottom: 80px;
     font-size: 24px;
 }
 
-.btn-whats>button {
-    color: white;
-    font-size: 24px;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
+
+/* ==============================
+   BOTÃO WHATSAPP
+   ============================== */
+
+.btn-whats > button {
     width: 330px;
     height: 76px;
-    background: #4C905F;
-    border: 4px solid #76B788;
+
     margin: 20px 30px 0 43px;
     padding: 0;
+
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+    font-family: "Poppins", sans-serif;
+
+    background: #4C905F;
+    border: 4px solid #76B788;
 }
+
+
+/* ==============================
+   BOTÕES / LINKS
+   ============================== */
 
 .botao-box {
     display: flex;
     flex-direction: column;
 }
 
-.but>button {
+.but > button {
     display: flex;
     justify-content: space-between;
+
     width: 256px;
     height: 59px;
+
     margin: 10px auto;
 
     font-size: 24px;
     font-weight: bold;
 }
 
-button>img {
+button > img {
     width: 44px;
     height: 44px;
 }
 
-@media (min-width: 766px) and (max-width: 1024px) {
 
- 
+/* =========================================================
+   TABLET
+   766px ATÉ 1024px
+   ========================================================= */
+
+@media (min-width: 766px) and (max-width: 1444px) {
+
+    /* Seção */
+
     .contatos {
         padding: 80px 50px;
-  
     }
 
-    .contatos h2 {
-        font-size: 42px;
+    .contatos > h2 {
+        padding: 0;
         margin-bottom: 10px;
-    }
 
-    .contatos>p {
-        font-size: 17px;
-        margin-bottom: 45px;
+        font-size: 42px;
         text-align: center;
     }
 
+    .contatos > p {
+        margin-left: 0;
+        margin-bottom: 45px;
+
+        font-size: 17px;
+        text-align: center;
+    }
+
+
+    /* Cards */
+
     .box-cont {
-        width: 100%;
-        max-width: 900px;
-        margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+
+        width: 100%;
+        max-width: 900px;
+
+        margin: 0 auto;
+
         gap: 25px;
     }
 
@@ -190,72 +287,95 @@ button>img {
         min-width: 0;
     }
 
+
+    /* Conteúdo */
+
     .cont-conteudo {
-        width: 100%;
-        min-height: 380px;
-        box-sizing: border-box;
-        padding: 30px 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        width: 100%;
+        min-height: 380px;
+
+        padding: 30px 20px;
+
         text-align: center;
     }
 
-
-    .cont-conteudo>img {
+    .cont-conteudo > img {
         width: 55px;
         height: 55px;
+
+        margin: 0 0 20px;
+
         object-fit: contain;
-        margin-bottom: 20px;
     }
 
-    .cont-conteudo h3 {
+    .cont-conteudo > h3 {
         width: 100%;
+
         margin: 0 0 12px;
+
         font-size: 19px;
         line-height: 1.3;
     }
 
-    .cont-conteudo>p {
+    .cont-conteudo > p {
         width: 100%;
         max-width: 220px;
+
         margin: 5px 0;
+
         font-size: 14px;
         line-height: 1.5;
     }
 
 
+    /* E-mail */
+
     #e-mail {
         width: 100%;
         max-width: 210px;
-        margin-top: 8px;
-        font-size: 10px !important;
+
+        margin-top: 0px;
+
+        font-size: 10px;
         line-height: 1.4;
+
         overflow-wrap: anywhere;
         word-break: break-word;
     }
 
-  
+
+    /* Chamada */
+
     .chamada {
-        width: 100%;
         display: flex;
-        align-items: center;
         justify-content: center;
-        gap: 7px;
+        align-items: center;
+
+        width: 100%;
+
         margin-top: 8px;
+
+        gap: 7px;
     }
 
-    .chamada img {
+    .chamada > img {
         width: 19px;
         height: 19px;
+
         object-fit: contain;
     }
 
-    .chamada p {
-        margin-top: 0;
+    .chamada > p {
+        margin-top: 90px;
         font-size: 14px;
-        
     }
+
+
+    /* Botões */
 
     .botao,
     .btn-whats,
@@ -270,25 +390,33 @@ button>img {
         justify-content: center;
     }
 
-    .botao button,
-    .btn-whats button {
-        width: 90%;
-        min-height: 42px;
-        padding: 10px 12px;
+    .botao > button,
+    .btn-whats > button {
         display: flex;
         align-items: center;
         justify-content: center;
-        box-sizing: border-box;
+
+        width: 90%;
+        min-height: 42px;
+
+        margin: 0;
+        padding: 10px 12px;
+
         font-size: 13px;
         line-height: 1.2;
+
+        box-sizing: border-box;
         white-space: nowrap;
     }
 
-    
+
+    /* Caixa de botões */
+
     .botao-box {
         display: flex;
         flex-direction: column;
         align-items: center;
+
         gap: 10px;
     }
 
@@ -296,44 +424,65 @@ button>img {
         width: 90%;
     }
 
-    .but button {
-        width: 100%;
-        min-height: 42px;
-        padding: 9px 10px;
+    .but > button {
         display: flex;
         align-items: center;
         justify-content: center;
+
+        width: 100%;
+        min-height: 42px;
+
+        margin: 0;
+        padding: 9px 10px;
+
         gap: 7px;
+
         font-size: 13px;
     }
 
-    .but button img {
+    .but > button img {
         width: 18px;
         height: 18px;
+
         object-fit: contain;
     }
 }
 
 
+/* =========================================================
+   MOBILE
+   ATÉ 760px
+   ========================================================= */
+
 @media (max-width: 760px) {
 
-    .contatos>h2 {
+    /* Seção */
+
+    .contatos > h2 {
         padding: 20px;
+
         font-size: 2rem;
         text-align: center;
     }
 
-    .contatos>p {
+    .contatos > p {
         margin-left: 0;
         padding: 10px 20px 30px;
+
         font-size: 18px;
         text-align: center;
     }
 
+
+    /* Cards */
+
     .box-cont {
+        display: flex;
         flex-direction: column;
         align-items: center;
+
         gap: 30px;
+
         padding: 0 20px;
     }
 
@@ -344,92 +493,128 @@ button>img {
         height: auto;
     }
 
-    .cont-conteudo>img {
+
+    /* Conteúdo */
+
+    .cont-conteudo > img {
         display: block;
-        margin: 30px auto 15px;
+
         width: 80px;
         height: auto;
+
+        margin: 30px auto 15px;
     }
 
-    .cont-conteudo>h3 {
+    .cont-conteudo > h3 {
+        padding: 0 20px;
+
         font-size: 26px;
-        padding: 0 20px;
     }
 
-    .cont-conteudo>p {
-        font-size: 18px;
+    .cont-conteudo > p {
         padding: 0 20px;
+
+        font-size: 18px;
         line-height: 1.5;
     }
 
+
+    /* E-mail */
+
     #e-mail {
         width: calc(100% - 40px);
+
         margin: 20px;
+        padding: 14px 12px;
+
         font-size: 16px;
+
         box-sizing: border-box;
     }
+
+
+    /* Botão principal */
 
     .botao {
         margin: 30px 0;
     }
 
-    .botao>button {
+    .botao > button {
         width: 90%;
         max-width: 280px;
         height: 55px;
+
         font-size: 18px;
     }
 
+
+    /* Chamada WhatsApp */
+
     .chamada {
+        display: flex;
+
         width: 90%;
         max-width: 300px;
-        display: flex;
         height: auto;
+
         padding: 15px;
+
         gap: 15px;
     }
 
-    .chamada>img {
+    .chamada > img {
         width: 38px;
         height: 38px;
+
         margin: 0;
     }
 
-    .chamada>p {
+    .chamada > p {
         margin: 0;
+        padding: 20px 0;
+
         font-size: 18px;
-        padding-bottom: 20px;
-        padding-top: 20px;
     }
+
+
+    /* Botão WhatsApp */
 
     .btn-whats {
         display: flex;
         justify-content: center;
+
         margin: 20px 0;
     }
 
-    .btn-whats>button {
+    .btn-whats > button {
         width: 90%;
         max-width: 300px;
         height: 60px;
+
         margin: 0;
+
         font-size: 18px;
     }
+
+
+    /* Caixa de botões */
 
     .botao-box {
         align-items: center;
+
         padding-bottom: 20px;
     }
 
-    .but>button {
+    .but > button {
         width: 200px;
         height: 55px;
+
         font-size: 18px;
     }
 
-    button>img {
+    button > img {
         width: 36px;
         height: 36px;
     }
-
 }
+```
